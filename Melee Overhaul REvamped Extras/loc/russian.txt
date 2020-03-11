@@ -1,0 +1,49 @@
+{
+	"more_options_extras_options_menu_title" 	: "Дополнительные настройки",
+	"more_options_extras_options_menu_desc" 	: "ПРЕДУПРЕЖДЕНИЕ: Эти параметры включают в себя изменяемые игровые функции, так что будьте осторожны при игре с другими игроками!",
+	
+	"bm_menu_btn_enhance_melee_weapon" : "Модификация оружия ближнего боя",
+	
+	"more_options_toggle_melee_sprinting_title" : "Бег с оружием ближнего боя",
+	"more_options_toggle_melee_sprinting_desc" 	: "Позволяет быстро бежать, когда оружие ближнего боя выбрано.",
+	
+	"more_options_toggle_melee_headshots_title" : "Удары в голову оружием ближнего боя",
+	"more_options_toggle_melee_headshots_desc" 	: "Оружие ближнего боя будет засчитывать удары в голову, что даст дополнительные 25% урона к одному удару.",
+	
+	"more_options_toggle_melee_breaching_title" : "Распил оружием ближнего боя",
+	"more_options_toggle_melee_breaching_desc" 	: "Оружие ближнего боя копирует возможности пилы для взлома определенных объектов, которые можно вскрыть пилой.",
+	
+	"more_options_toggle_melee_enhancer_title" 	: "Модификация оружия ближнего боя",
+	"more_options_toggle_melee_enhancer_desc" 	: "Изменяйте и настраивайте оружие ближнего боя так, чтобы иметь дополнительные возможности.",
+	
+	"more_options_toggle_pager_snatch_title" 	: "Перехват пейджера",
+	"more_options_toggle_pager_snatch_desc" 	: "Существует 30% вероятность автоматического ответа на пейджер, когда вы убили охранника оружием ближнего боя.",
+
+	"more_options_toggle_melee_tweak_title" 	: "Твики статы оружия ближнего боя",
+	"more_options_toggle_melee_tweak_desc" 		: "Статистика оружия ближнего боя (урон и нокдаун) настраивается в зависимости от других характеристик (задержки качания и времени перезарядки).",
+	
+	"more_options_enhancement_apply" 	: "Принять",
+	"more_options_enhancement_remove" 	: "Убрать",
+	"more_options_enhancement_cancel" 	: "Отмена",
+	
+	"more_options_enhancement_electric_title" 	: "Электризация",
+	"more_options_enhancement_electric_desc" 	: "Враги временно ошеломлены, когда вы их бьете. Однако, базовый урон снижается на 50% и невозможно нанести дополнительный урон зарядом",
+	
+	"more_options_enhancement_poison_title" : "Отравление",
+	"more_options_enhancement_poison_desc" 	: "У врагов есть шанс отравиться и получать урон в течение долгого времени. Однако, базовый урон снижен на 25%.",
+	
+	"more_options_enhancement_incinerated_title" 	: "Поджог",
+	"more_options_enhancement_incinerated_desc" 	: "Враги будут гореть от ударов оружием ближнего боя, получая урон в течение 5 секунд. Урон от огня составит 25% от первоначального урона. Это возможно только 1 раз в 10 секунд.",
+	
+	"more_options_enhancement_blood_lust_title" : "Жажда крови",
+	"more_options_enhancement_blood_lust_desc" 	: "Все удары в ближнем бою дают шанс 50% на восстановление здоровья от 3 до 5 HP за удар. Это возможно только 1 раз в 0,5 секунд.",
+	
+	"more_options_enhancement_kleptomaniac_title" 	: "Клептомания",
+	"more_options_enhancement_kleptomaniac_desc" 	: "Все удары в ближнем бою дают шанс 75% на восстановление боеприпасов для основного и вторичного оружия. Это возможно только 1 раз в 3 секунды.",
+	
+	"more_options_enhancement_aftershock_title" : "Возмездие",
+	"more_options_enhancement_aftershock_desc" 	: "Удары оружием ближнего боя во что-либо ошеломляют противников в радиусе 15 метров. Это возможно только 1 раз в 10 секунд. НЕ работает во время стелса.",
+	
+	"more_options_enhancement_swiftness_title" 	: "Проворство",
+	"more_options_enhancement_swiftness_desc" 	: "Убийство врага слегка увеличит скорость передвижения в течение 10 секунд. Это возможно только 1 раз в 3,5 секунды."
+}
