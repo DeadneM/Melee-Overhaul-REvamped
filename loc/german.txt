@@ -80,6 +80,54 @@
 	"more_options_slider_shake_intensity_title" : "Wackel/Zoom Intensität",
 	"more_options_slider_shake_intensity_desc" 	: "Ändere wie sehr die Kamera Wackelt/rein zoomt wenn man die Nahkampf-Waffe trägt.",
 	
+	"more_options_extras_options_menu_title" 	: "Extras Optionen",
+	"more_options_extras_options_menu_desc" 	: "WARNUNG: Diese Optionen beinhalten Einstellungen, die das Gameplay verändern, also achte bitte auf andere Spieler!",
+	
+	"bm_menu_btn_enhance_melee_weapon" : "Verbessere Nahkampfwaffen",
+	
+	"more_options_toggle_melee_sprinting_title" : "Sprinten mit Nahkampfwaffe",
+	"more_options_toggle_melee_sprinting_desc" 	: "Gibt dir die Fähigkeit mit ausgerüsteter Nahkampfwaffe zu sprinten.",
+	
+	"more_options_toggle_melee_headshots_title" : "Nahkampfkopfschüsse",
+	"more_options_toggle_melee_headshots_desc" 	: "Nahkampfwaffen erzielen nun Kopfschüsse, dies bewirkt 25% zusätzlichen Schaden pro Treffer.",
+	
+	"more_options_toggle_melee_breaching_title" : "\"Sägen\" mit Nahkampfwaffen",
+	"more_options_toggle_melee_breaching_desc" 	: "Nahkampfwaffen verursachen Sägeschaden, um bestimmte Strukturen, die aufgesägt werden können, zu öffnen.",
+	
+	"more_options_toggle_melee_enhancer_title" 	: "Nahkampfwaffen Verbesserung",
+	"more_options_toggle_melee_enhancer_desc" 	: "Verändere deine Nahkampfwaffen, damit sie extra Eigenschaften erhalten.",
+	
+	"more_options_toggle_pager_snatch_title" 	: "Pager entreißen",
+	"more_options_toggle_pager_snatch_desc" 	: "Es gibt eine 30%ige Chance den Pager automatisch zu beantworten, wenn eine Wache im Nahkampf getötet wird.",
+	
+	"more_options_toggle_melee_tweak_title" 	: "Melee Stat Tweak",
+	"more_options_toggle_melee_tweak_desc" 		: "Melee weapon stats (damage and knockdown) are tweaked depending on other stats (swing delay and charge time).",
+	
+	"more_options_enhancement_apply" 	: "Übernehmen",
+	"more_options_enhancement_remove" 	: "Entfernen",
+	"more_options_enhancement_cancel" 	: "Abbrechen",
+	
+	"more_options_enhancement_electric_title" 	: "Elektrifiziert",
+	"more_options_enhancement_electric_desc" 	: "Gegner werden kurzzeitig betäubt, wenn sie mit Nahkampfwaffen getroffen werden. Jedoch wird der Basisschaden um 50% reduziert und kann keinen zusätzlichen Ladungsschaden verursachen.",
+	
+	"more_options_enhancement_poison_title" : "In Gift getaucht",
+	"more_options_enhancement_poison_desc" 	: "Gegner können vergiftet werden und Schaden über Zeit erhalten. Jedoch ist der Basisschaden um 25% reduziert.",
+	
+	"more_options_enhancement_incinerated_title" 	: "Brennend",
+	"more_options_enhancement_incinerated_desc" 	: "Gegner werden brennen von Nahkampftreffern und Schaden über 5 Sekunden erhalten. Der Feuerschaden beträgt 25% des anfänglichen Schadens. Dies kann nur alle 10 Sekunden auftreten.",
+	
+	"more_options_enhancement_blood_lust_title" : "Blutlust",
+	"more_options_enhancement_blood_lust_desc" 	: "Alle Nahkampftreffer haben eine 50% Chance auf Heilung, wobei 3 bis 5 Lebenspunkte pro Treffer wiederhergestellt werden. Dies kann nur alle 0,5 Sekunden auftreten.",
+	
+	"more_options_enhancement_kleptomaniac_title" 	: "Kleptomanisch",
+	"more_options_enhancement_kleptomaniac_desc" 	: "Alle Nahkampftreffer haben eine Chance von 75%, Munition für Primär- und Sekundärwaffen wiederherzustellen. Dies kann nur alle 3 Sekunden auftreten.",
+	
+	"more_options_enhancement_aftershock_title" : "Nachbeben",
+	"more_options_enhancement_aftershock_desc" 	: "Treffe irgendetwas mit deiner Nahkampfwaffe, um Gegner im Umkreis von 15m kurzzeitig zu betäuben. Dies kann nur alle 10 Sekunden auftreten. Funktioniert nicht, solange es sich um Stealth handelt.",
+	
+	"more_options_enhancement_swiftness_title" 	: "Schnelligkeit",
+	"more_options_enhancement_swiftness_desc" 	: "Einen Gegner zu töten, gewährt dir 10 Sekunden lang einen leichten Bonus auf deine Bewegungsgeschwindigkeit. Dies kann nur alle 3,5 Sekunden auftreten.",
+	
 	"more_options_choice_hand_effect_title" : "Hand Effekt",
 	"more_options_choice_hand_effect_desc" 	: "Wenn du die Nahkampf-Waffe hälst, erscheint ein bestimmer Effekt.",
 	"more_options_choice_hand_effect_a" 	: "Keiner",

@@ -27,3 +27,13 @@ function PlayerBleedOut:_update_check_actions(t, dt)
 	new_action = new_action or self:_check_action_steelsight(t, input)
 	PlayerCarry._check_use_item(self, t, input)
 end
+
+--FROM EXTRA
+Hooks:PostHook( PlayerBleedOut , "update" , "MeleeOverhaulExtrasPlayerBleedOutPostUpdate" , function( self , t , dt )
+
+	local input = self:_get_input()
+	
+	self:_update_melee_timers( t , input )
+	self:_check_action_melee( t , input )
+
+end )

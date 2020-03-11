@@ -18,11 +18,14 @@ local HookFiles = {
 	[ "lib/network/matchmaking/networkaccountsteam" ] 		= "lua/networkaccountsteam.lua",
 	[ "lib/tweak_data/blackmarket/meleeweaponstweakdata" ] 	= "lua/meleeweaponstweakdata.lua",
 	[ "lib/tweak_data/lootdroptweakdata" ] 					= "lua/lootdroptweakdata.lua",
+	[ "lib/units/beings/player/playerdamage" ] 				= "lua/playerdamage.lua",
+	[ "lib/units/beings/player/states/playerbleedout" ] 	= "lua/playerbleedout.lua",
 	[ "lib/units/beings/player/states/playerstandard" ] 	= "lua/playerstandard.lua",
 	[ "lib/units/cameras/fpcameraplayerbase" ] 				= "lua/fpcameraplayerbase.lua",
+	[ "lib/units/enemies/cop/copbrain" ] 					= "lua/copbrain.lua",
 	[ "lib/units/enemies/cop/copdamage" ] 					= "lua/copdamage.lua",
 	[ "lib/units/enemies/cop/copmovement" ] 				= "lua/copmovement.lua"
-	
+
 }
 
 function MeleeOverhaul:Save()
@@ -60,6 +63,16 @@ function MeleeOverhaul:DefaultSettings()
 	end
 	
 	self:Save()
+
+end
+
+function MeleeOverhaul:CheckBreach( unit )
+
+	local n = unit:name():t()
+	
+	for k , v in ipairs( self.BreachUnits ) do
+		if v == n then return true end
+	end
 
 end
 
