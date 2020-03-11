@@ -17,11 +17,6 @@ MeleeOverhaul.MenuOptions.Menu = {
 		"more_options_effects_options_menu_desc"
 	},
 	
-	[ "MeleeOverhaulMenuMiscellaneousOptions" ] = {
-		"more_options_miscellaneous_options_menu_title",
-		"more_options_miscellaneous_options_menu_desc"
-	},
-	
 	[ "MeleeOverhaulMenuExtrasOptions" ] = {
 		"more_options_extras_options_menu_title",
 		"more_options_extras_options_menu_desc"
@@ -56,13 +51,6 @@ MeleeOverhaul.MenuOptions.Toggle = {
 		"more_options_toggle_tase_visual_title",
 		"more_options_toggle_tase_visual_desc",
 		false
-	},
-	
-	[ "MessageOfTheDay" ] = {
-		"MeleeOverhaulMenuMiscellaneousOptions",
-		"more_options_toggle_motd_title",
-		"more_options_toggle_motd_desc",
-		true
 	},
 	
 	[ "Decapitation" ] = {

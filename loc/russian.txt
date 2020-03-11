@@ -2,9 +2,6 @@
 	"more_options_menu_title" 	: "Melee Overhaul REvamped",
 	"more_options_menu_desc" 	: "Оружие ближнего боя - твой выбор  Настрой параметры как считаешь нужным!",
 	
-	"more_options_motd" 			: "СООБЩЕНИЕ ДНЯ",
-	"more_options_motd_unavailable" : "Недоступно.",
-	
 	"more_options_stats_unavailable" 	: "Недоступно",
 	"more_options_stats_most_used" 		: "БОЛЬШЕ ВСЕГО ИСПОЛЬЗОВАНО",
 	"more_options_stats_times_used" 	: "РАЗ ЭКИПИРОВАНО",
@@ -25,9 +22,6 @@
 	
 	"more_options_gore_options_menu_title" 	: "Настройки крови",
 	"more_options_gore_options_menu_desc" 	: "",
-	
-	"more_options_miscellaneous_options_menu_title" : "Разные настройки",
-	"more_options_miscellaneous_options_menu_desc" 	: "",
 	
 	"more_options_callout_options_menu_title" 	: "Настройки уведомлений",
 	"more_options_callout_options_menu_desc" 	: "",
@@ -65,9 +59,6 @@
 	"more_options_toggle_charging_callout_title" 	: "Уведомление о готовности удара",
 	"more_options_toggle_charging_callout_desc" 	: "Когда оружие ближнего боя почти полностью заряжено, то грабитель прокомментирует это.",
 	
-	"more_options_toggle_motd_title" 	: "Сообщение дня",
-	"more_options_toggle_motd_desc" 	: "Показывает всю важную информацию/обновления из группы Steam в меню настроек.",
-
 	"more_options_toggle_decal_title" 	: "Отображение маркеров",
 	"more_options_toggle_decal_desc" 	: "При размахе оружия ближнего боя, во время попадания по объекту будет отображен маркер.",
 	

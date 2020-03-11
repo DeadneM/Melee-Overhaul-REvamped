@@ -123,14 +123,6 @@ Hooks:Add( "LocalizationManagerPostInit" , "MeleeOverhaulLocalizationManagerPost
 end )
 
 Hooks:Add( "MenuManagerInitialize" , "MeleeOverhaulMenuManagerPostInit" , function( self )
-
-	MenuCallbackHandler.MeleeOverhaulMenuMOTDFocus = function( self , focus )
-		if focus and MeleeOverhaul:HasSetting( "MessageOfTheDay" ) then
-			MeleeOverhaul:ShowMessageOfTheDay()
-		else
-			MeleeOverhaul:DestroyMessageOfTheDay()
-		end
-	end
 	
 	MenuCallbackHandler.MeleeOverhaulMenuStatisticsFocus = function( self , focus )
 		if focus then
@@ -152,7 +144,7 @@ end )
 
 Hooks:Add( "MenuManagerBuildCustomMenus" , "MeleeOverhaulMenuManagerPostBuildCustomMenus" , function( self , nodes )
 	
-	nodes[ MeleeOverhaul.Menu ] = MenuHelper:BuildMenu( MeleeOverhaul.Menu , { focus_changed_callback = "MeleeOverhaulMenuMOTDFocus" } )
+	nodes[ MeleeOverhaul.Menu ] = MenuHelper:BuildMenu( MeleeOverhaul.Menu )
 	nodes[ MeleeOverhaul.DatabaseMenu ] = MenuHelper:BuildMenu( MeleeOverhaul.DatabaseMenu , { focus_changed_callback = "MeleeOverhaulMenuDatabaseFocus" } )
     MenuHelper:AddMenuItem( nodes["blt_options"] , MeleeOverhaul.Menu , "more_options_menu_title" , "more_options_menu_desc" )
 	
@@ -270,16 +262,6 @@ Hooks:Add( "MenuManagerPopulateCustomMenus" , "MeleeOverhaulMenuManagerPostPopul
 		})
 	
 	end
-
-end )
-
-Hooks:Add( "MenuManagerOnOpenMenu" , "MeleeOverhaulMenuManagerPostOnOpenMenu" , function( self , menu , position )
-
-	Steam:http_request( "http://steamcommunity.com/groups/PD2_MORE/discussions/1/360672137533017262/" , function( success , page )
-		if success and page:match( '||@||(.-)||@||' ) then
-			MeleeOverhaul.MOTD = page:match( '||@||(.-)||@||' ):gsub( "<br>" , "\n" )
-		end
-	end )
 
 end )
 

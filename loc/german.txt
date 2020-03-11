@@ -2,9 +2,6 @@
 	"more_options_menu_title" 	: "Melee Overhaul REvamped",
 	"more_options_menu_desc" 	: "Nahkampf - wie du es willst  Optionen - wie du sie willst!",
 	
-	"more_options_motd" 			: "NACHRICHT DES TAGES",
-	"more_options_motd_unavailable" : "Nicht vorhanden.",
-	
 	"more_options_stats_unavailable" 	: "Nicht verfügbar",
 	"more_options_stats_most_used" 		: "MEIST BENUTZTE NAHKAMPF WAFFE",
 	"more_options_stats_times_used" 	: "MAL AUSGEWÄHLT",
@@ -25,9 +22,6 @@
 	
 	"more_options_gore_options_menu_title" 	: "Blut Effekt Optionen",
 	"more_options_gore_options_menu_desc" 	: "",
-	
-	"more_options_miscellaneous_options_menu_title" : "Sonstige Optionen",
-	"more_options_miscellaneous_options_menu_desc" 	: "",
 	
 	"more_options_callout_options_menu_title" 	: "Ausruf-Optionen",
 	"more_options_callout_options_menu_desc" 	: "",
@@ -64,9 +58,6 @@
 	
 	"more_options_toggle_charging_callout_title" 	: "Aufladungs-Ausruf",
 	"more_options_toggle_charging_callout_desc" 	: "Wenn eine Nahkampf-Waffe komplett aufgeladen ist gibt der Heister einen Kommentar ab.",
-	
-	"more_options_toggle_motd_title" 	: "Nachricht des Tages",
-	"more_options_toggle_motd_desc" 	: "Zeigt wichtige Infos oder Updates aus der Steam-Gruppe in dem Options Menü.",
 
 	"more_options_toggle_decal_title" 	: "Visual Decals",
 	"more_options_toggle_decal_desc" 	: "When swinging your melee weapon, hitting an object will display a decal depending on your melee.",

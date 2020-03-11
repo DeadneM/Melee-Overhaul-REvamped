@@ -2,9 +2,6 @@
 	"more_options_menu_title" 	: "Melee Overhaul REvamped",
 	"more_options_menu_desc" 	: "Melee - your way  Customize your options as you see fit!",
 	
-	"more_options_motd" 			: "MESSAGE OF THE DAY",
-	"more_options_motd_unavailable" : "Unavailable.",
-	
 	"more_options_stats_unavailable" 	: "Unavailable",
 	"more_options_stats_most_used" 		: "MOST EQUIPPED MELEE WEAPON",
 	"more_options_stats_times_used" 	: "TIMES EQUIPPED",
@@ -25,9 +22,6 @@
 	
 	"more_options_gore_options_menu_title" 	: "Gore Options",
 	"more_options_gore_options_menu_desc" 	: "",
-	
-	"more_options_miscellaneous_options_menu_title" : "Miscellaneous Options",
-	"more_options_miscellaneous_options_menu_desc" 	: "",
 	
 	"more_options_callout_options_menu_title" 	: "Callout Options",
 	"more_options_callout_options_menu_desc" 	: "",
@@ -64,9 +58,6 @@
 	
 	"more_options_toggle_charging_callout_title" 	: "Charging Callout",
 	"more_options_toggle_charging_callout_desc" 	: "When a melee weapon is almost fully charged, the heister will comment on it.",
-	
-	"more_options_toggle_motd_title" 	: "Message of the Day",
-	"more_options_toggle_motd_desc" 	: "Displays any important info/updates from the Steam group in the mod's option menu.",
 
 	"more_options_toggle_decal_title" 	: "Visual Decals",
 	"more_options_toggle_decal_desc" 	: "When swinging your melee weapon, hitting an object will display a decal depending on your melee.",
