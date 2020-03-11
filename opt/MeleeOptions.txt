@@ -1,0 +1,76 @@
+{
+	"menu_id" : "mel_options_menu",
+	"parent_menu_id" : "lua_mod_options_menu",
+	"title" : "mel_main_title",
+	"description" : "mel_main_title_desc",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "mel_tog_push2hold_opt",
+			"title" : "mel_tog_push2hold",
+			"description" : "mel_tog_push2hold_desc",
+			"callback" : "clbk_mel_tog_push2hold",
+			"value" : "push2hold_enabled",
+			"default_value" : true,
+		},
+		{
+			"type" : "divider",
+			"size" : 8,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_tog_time_hold_opt",
+			"title" : "mel_tog_time_hold",
+			"description" : "mel_tog_time_hold_desc",
+			"callback" : "clbk_mel_tog_time_hold",
+			"value" : "time_hold_enabled",
+			"default_value" : false,
+		},
+		{
+			"type" : "slider",
+			"id" : "mel_time_hold_opt",
+			"title" : "mel_time_hold",
+			"description" : "mel_time_hold_desc",
+			"callback" : "clbk_mel_time_hold",
+			"value" : "timer",
+			"default_value" : 0,
+			"max" : 5,
+			"min" : 0,
+			"step" : 0.5,
+		},
+		{
+			"type" : "divider",
+			"size" : 8,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_tog_notification_opt",
+			"title" : "mel_tog_notification",
+			"description" : "mel_tog_notification_desc",
+			"callback" : "clbk_mel_tog_notification",
+			"value" : "notification_enabled",
+			"default_value" : true,
+		},
+		{
+			"type" : "divider",
+			"size" : 8,
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "mel_lang_opts",
+			"title" : "mel_lang",
+			"description" : "mel_lang_desc",
+			"callback" : "clbk_mel_lang",
+			"items" : [
+				"mel_lang_en",
+				"mel_lang_ru"
+			],
+			"value" : "language",
+			"default_value" : 1,
+		},
+		{
+			"type" : "divider",
+			"size" : 16,
+		}
+	]
+}

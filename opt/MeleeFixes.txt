@@ -1,0 +1,74 @@
+{
+	"menu_id" : "mel_fi_menu",
+	"parent_menu_id" : "mel_options_menu",
+	"title" : "mel_fix",
+	"description" : "mel_fix_desc",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_loop_opt",
+			"title" : "mel_fix_loop",
+			"description" : "mel_fix_loop_desc",
+			"callback" : "clbk_mel_fix_loop",
+			"value" : "loop_fix",
+			"default_value" : false,
+		},
+		{
+			"type" : "divider",
+			"size" : 4,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_grinder_opt",
+			"title" : "mel_fix_grinder",
+			"description" : "mel_fix_grinder_desc",
+			"callback" : "clbk_mel_fix_grinder",
+			"value" : "grinder_fix",
+			"default_value" : false,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_sociopath_opt",
+			"title" : "mel_fix_sociopath",
+			"description" : "mel_fix_sociopath_desc",
+			"callback" : "clbk_mel_fix_sociopath",
+			"value" : "sociopath_fix",
+			"default_value" : false,
+		},
+		{
+			"type" : "divider",
+			"size" : 4,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_interact_opt",
+			"title" : "mel_fix_interact",
+			"description" : "mel_fix_interact_desc",
+			"callback" : "clbk_mel_fix_interact",
+			"value" : "interact_fix",
+			"default_value" : false,
+		},
+		{
+			"type" : "divider",
+			"size" : 4,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_gagehud_opt",
+			"title" : "mel_fix_gagehud",
+			"description" : "mel_fix_gagehud_desc",
+			"callback" : "clbk_mel_fix_gagehud",
+			"value" : "gagehud_fix",
+			"default_value" : false,
+		},
+		{
+			"type" : "toggle",
+			"id" : "mel_fix_pocohud_opt",
+			"title" : "mel_fix_pocohud",
+			"description" : "mel_fix_pocohud_desc",
+			"callback" : "clbk_mel_fix_pocohud",
+			"value" : "pocohud_fix",
+			"default_value" : false,
+		}
+	]
+}
