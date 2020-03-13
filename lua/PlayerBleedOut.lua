@@ -35,7 +35,7 @@ end
 --Not sure how those below lines are usefull
 Hooks:PostHook( PlayerBleedOut , "update" , "MeleeOverhaulExtrasPlayerBleedOutPostUpdate" , function( self , t , dt )
 
-	local input = self:_get_input()
+	local input = self:_get_input(t, dt)
 	
 	self:_update_melee_timers( t , input )
 	self:_check_action_melee( t , input )
